@@ -10,12 +10,12 @@ Time spent: 3 hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [x ] Settings page to change the default tip percentage.
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [x ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/zADum' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/zADum' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -35,9 +35,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+	The most difficult part was probably updating the Segmented Control after coming back from the Settings View Controller; however, after some research I found that overriding the viewWillAppear function did the trick.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Brandon Paw]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
